@@ -1,0 +1,35 @@
+.horizontal-stacked-bar-chart {
+  width: 50%;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 2rem;
+  &__title {
+    text-align: right;
+    font-style: italic;
+  }
+  .svg-content {
+    width: 100%;
+  }
+  .tick {
+    text {
+      font-weight: 700;
+      font-size: 14px;
+      color: #828282;
+    }
+    line {
+      stroke: #e0e0e0;
+    }
+  }
+  .domain {
+    stroke: #e0e0e0;
+  }
+
+  .horizontal-stacked-area-chart__tooltip {
+    background-color: #333333;
+    color: #ffffff;
+    visibility: hidden;
+    position: fixed;
+    padding: 1.4rem 0.9rem 1.4rem 1.7rem;
+  }
+}

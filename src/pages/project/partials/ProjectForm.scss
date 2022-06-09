@@ -1,0 +1,44 @@
+$column-gap: 4.1rem;
+
+.mt-32 {
+  margin-top: 3.2rem;
+}
+
+.project-form {
+  margin: 0;
+  .breadcrum-project {
+      margin-top: 3.7rem;
+      margin-bottom: 3.2rem;
+  }
+  &__information {
+    &-title {
+      margin-bottom: 3rem;
+      color: #000000;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    display: flex;
+    column-gap: $column-gap;
+    &--left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: calc(100% / 3 * 2);
+
+      &-row {
+        display: flex;
+        column-gap: $column-gap;
+        > div {
+          width: 50%;
+          margin-bottom: 3rem;
+        }
+        &:nth-child(3) {
+          align-items: flex-end;
+        }
+      }
+    }
+    &--right {
+      width: calc(100% / 3);
+    }
+  }
+}

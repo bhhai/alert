@@ -1,0 +1,31 @@
+.barline-chart {
+    width: 70%;
+    background: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2rem;
+    .svg-content {
+        width: 100%;
+    }
+    .tick {
+      text {
+        font-weight: 700;
+        font-size: 14px;
+        color: #828282;
+      }
+      line {
+        stroke: #e0e0e0;
+      }
+    }
+    .domain {
+      stroke: #e0e0e0;
+    }
+    &__title {
+      font-size: 20px;
+      font-style: italic;
+      text-align: right;
+      margin-bottom: 1rem;
+      padding-top: 2rem;
+    }
+  }
+  

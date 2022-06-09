@@ -1,0 +1,58 @@
+.chart {
+  width: 70%;
+}
+.horizontal-bar-chart {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 2rem;
+  .svg-content {
+    width: 100%;
+  }
+  .tick {
+    text {
+      font-weight: 700;
+      font-size: 16px;
+      color: #828282;
+    }
+    line {
+      stroke: #e0e0e0;
+    }
+  }
+  .domain {
+    stroke: #e0e0e0;
+  }
+  &__title {
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    margin: 0;
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    li {
+      display: flex;
+      align-items: center;
+      margin-right: 4rem;
+      span {
+        width: 50px;
+        height: 25px;
+        display: inline-block;
+        background-color: #e0e0e0;
+        margin-right: 1.3rem;
+      }
+    }
+    .horizontal-bar-chart--negative span {
+      background-color: #eb5757;
+    }
+    .horizontal-bar-chart--positive span {
+      background-color: #27ae60;
+    }
+    .horizontal-bar-chart--neutral span {
+      background-color: #1850a8cc;
+    }
+  }
+}

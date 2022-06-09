@@ -1,0 +1,51 @@
+.base-textarea {
+  padding-top: 1.8rem;
+  label {
+    display: block;
+    position: relative;
+    margin-bottom: 0;
+  }
+  .label-text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.15px;
+    color: var(--extra-color-60);
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+  textarea {
+    border-radius: 0.4rem;
+    border: 1px solid var(--extra-color-80);
+    height: 12rem;
+    resize: none;
+    padding: 1.2rem 1.6rem;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    vertical-align: top;
+    &:focus {
+      border-color: var(--primary-color);
+    }
+    &::placeholder {
+      color: var(--extra-color-40);
+      opacity: 1;
+    }
+
+    &:-ms-input-placeholder {
+      color: var(--extra-color-40);
+    }
+
+    &::-ms-input-placeholder {
+      color: var(--extra-color-40);
+    }
+    &:disabled,
+    &:disabled:focus {
+      border-color: var(--disabled-color);
+    }
+  }
+  .label-fail {
+    textarea {
+      border-color: var(--error-color);
+    }
+  }
+}

@@ -1,0 +1,130 @@
+
+.news-filter {
+
+  &__container {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+
+  }
+
+  &__col {
+    margin-bottom: 2.4rem;
+  }
+
+  &__list {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__label {
+    width: 11.8rem;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  &__check-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    div:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    & .base-checkbox {
+      margin-bottom: 2rem;
+    }
+    
+  }
+
+  &__popover {
+    display: flex;
+    align-items: center;
+
+    & .news-filter__col__label {
+      width: 11.8rem;
+      margin-right: 2rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    button {
+      width: 100%;
+      height: 5.5rem;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      padding: 0 1.6rem;
+      border: 0.1rem solid var(--gray-color-4);
+      border-radius: 0.4rem;
+      color: var(--black-color);
+      font-weight: 400;
+      position: relative;
+      bottom: 0;
+
+      &:hover, &:focus {
+        border: 0.1rem solid var(--gray-color-4) !important;
+      }
+
+      svg {
+        fill: var(--black-color);
+      }
+
+      & .tags-list {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    & .popover-list {
+      padding: 1rem 1.5rem;
+      max-height: 44.2rem;
+    }
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+
+    & .news-filter__label {
+      flex-shrink: 0;
+    }
+
+    & .base-input {
+      width: 100%;
+
+      input {
+        border-radius: 0.4rem;
+        background-color: transparent;
+      }
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3.2rem;
+
+    &__item:first-child button {
+      font-weight: 400;
+    }
+  }
+
+  &__col__placeholder {
+    display: flex;
+
+    & .base-tag {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.filter-popover.popover {
+  width: 100%;
+  max-height: 28rem;
+  overflow-y: auto;
+}

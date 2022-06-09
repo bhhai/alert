@@ -1,0 +1,20 @@
+.multi-bar-chart {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  width: fit-content;
+  padding: 2rem;
+  /* Card */
+
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  svg {
+      margin: 0 auto;
+  }
+  .tick {
+      text {
+          font-size: 16px;
+          font-weight: 600;
+      }
+  }
+}

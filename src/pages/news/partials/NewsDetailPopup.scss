@@ -1,0 +1,296 @@
+
+.news-detail {
+
+  &__close {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+
+    svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+
+    & button {
+      padding: 0;
+      font-weight: 400;
+    }
+  }
+
+  &__title {
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+  &__title-icon {
+    margin-left: 2rem;
+    width: 3rem;
+    height: 3rem;
+    svg {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
+
+  &__description {
+    display: flex;
+    padding-bottom: 2rem;
+
+    &__info {
+      width: 78%;
+      margin-top: 1rem;
+      border-right: 0.1rem solid var(--gray-color-4);
+
+      &__actions {
+        display: flex;
+        align-items: center;
+
+        & .item-name {
+          font-size: 1.8rem;
+          line-height: 2.7rem;
+          font-weight: 500;
+          margin-right: 2rem;
+        }
+      }
+
+      &__top {
+
+        margin-bottom: 1.5rem;
+
+        & span {
+          cursor: pointer;
+          svg {
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+        }
+      }
+
+      &__item {
+
+        margin-bottom: 0.5rem;
+
+        & .item-name {
+          margin-right: 1.3rem;
+          font-weight: 500;
+          font-size: 1.8rem;
+          line-height: 2.7rem;
+        }
+
+        & span:last-child {
+          color: var(--gray-color);
+        }
+      }
+    }
+
+    &__action {
+      margin-right: 2rem;
+      & .action-value {
+        margin-left: 0.5rem;
+      }
+    }
+
+    &__status {
+      display: flex;
+      padding-left: 2.5rem;
+      padding-top: 2rem;
+
+      h4 {
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &__content {
+    padding-top: 1rem;
+  }
+
+  // summary
+
+  &__summaries {
+    padding: 2rem 0;
+    border-top: 0.1rem solid var(--gray-color-4);
+    border-bottom: 0.1rem solid var(--gray-color-4);
+  }
+
+  &__summary {
+    display: flex;
+
+    &__name {
+      font-weight: 700;
+      margin-right: 2rem;
+      width: 9rem;
+    }
+
+    &__content {
+      flex: 1;
+
+      input {
+        padding: 0.8rem 1.6rem !important;
+        border-radius: 0;
+      }
+    }
+
+    & .news-detail__edit {
+      font-weight: 600;
+      margin-left: auto;
+      
+      button {
+        text-transform: uppercase;
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+
+// sticker edit
+
+
+.sticker-modal {
+  background-color: var(--white-color);
+  box-shadow: 0px -0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  position: sticky;
+  bottom: -1.7rem;
+  left: 0;
+  right: 0;
+
+  &__container {
+    padding: 2rem 0;
+    display: flex;
+    width: 100%;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 20.3rem;
+    margin-top: 1rem;
+  }
+
+  &__recommended {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+    &__name {
+      color: var(--gray-color);
+      margin-right: 1.5rem;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+    }
+
+    &__sticker-item {
+      background-color: var(--gray-color-5);
+      color: var(--gray-color);
+      font-size: 1.4rem;
+      opacity: .8;
+      padding: 0.6rem 1.2rem;
+      margin-right: 1rem;
+    }
+
+    &__sticker-icon {
+      margin-left: 0.9rem;
+      svg {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  &__btn {
+    margin-left: auto;
+
+    button {
+      padding: 0;
+      font-weight: 400;
+    }
+  }
+
+  &__sellect {
+    flex: 1;
+    &__btn {
+      width: 100%;
+      padding: 0;
+      border: 0.1rem solid var(--gray-color-4);
+      padding: 1.5rem 2.4rem;
+      border-radius: 0.4rem;
+      color: var(--gray-color-2);
+      font-weight: 400;
+      display: flex;
+      justify-content: space-between;
+
+      svg {
+        fill: var(--gray-color-2);
+      }
+      &:hover {
+        border: 0.1rem solid var(--gray-color-4) !important;
+      }
+      &:focus, :active {
+        border: 0.1rem solid var(--gray-color-4) !important;
+      }
+    }
+
+    & .check-box {
+      padding-left: 1.6rem;
+    }
+  }
+
+  &__popover {
+    position: absolute !important;
+    top: 5rem;
+    width: 100%;
+    background-color: red;
+
+    &__container {
+      padding: 0 2rem;
+    }
+  }
+
+  &__pop {
+
+    & .popover {
+      z-index: 9999 !important;
+      width: 100% !important;
+      left: 0 !important;
+      max-height: 17rem !important;
+      overflow-y: scroll;
+    }
+  }
+}
+
+.modal-content {
+  padding: 0 !important;
+}
+
+.modal-header {
+  margin: 2rem 4rem !important;
+}
+
+.modal-body {
+  padding: 1.3rem 4rem !important;
+}
+
+@media (min-width: 1200px) {
+  .popover {
+      max-width: 85.7rem;
+  }
+}

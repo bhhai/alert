@@ -1,0 +1,87 @@
+.react-tag-input {
+  .label-text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #4F575E;
+  }
+  &__item {
+    padding: 1rem !important;
+    margin-bottom: 0;
+  }
+  &__remove {
+    font-size: 2.4rem !important;
+  }
+  &__container {
+    position: relative;
+    border: 1px solid #E0E0E0;
+    margin-top: 0.8rem;
+    border-radius: 4px;
+    overflow: hidden;
+
+    &.on-focused {
+      border: 1px solid #1850A8;
+    }
+  }
+  &__list {
+    padding: 0.5rem;
+    overflow-x: scroll;
+    scrollbar-width: auto;
+    border: none;
+    box-shadow: none;
+    height: 5.1rem;
+    font-size: 1.6rem;
+    outline: none;
+    caret-color: var(--primary-color);
+    color: var(--text-primary-color);
+    width: 100%;
+    background: var(--white-color);
+    cursor: text;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__input {
+    border: none;
+    width: 20rem;
+    max-width: 100%;
+    outline: none;
+    box-shadow: none;
+    height: 2.4rem;
+  }
+
+  &__item {
+    padding: 0.4rem 0.8rem;
+    line-height: 2rem;
+    background-color: #dfe4e8;
+    color: #454f5b;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  &__item--disable {
+    background-color: #C1C7CD;
+    span {
+      cursor: no-drop;
+    }
+  }
+
+  &__remove {
+    padding-left: 0.5rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+
+  .message-error {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: var(--error-color);
+    display: block;
+  }
+}

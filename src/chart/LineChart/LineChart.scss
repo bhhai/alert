@@ -1,0 +1,81 @@
+.chart {
+  width: 70%;
+  height: 40rem;
+}
+.line-chart {
+  &__title {
+    text-align: right;
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+  }
+  &__tooltip {
+    max-width: 400px;
+    background-color: #333333;
+    color: #ffffff;
+    position: fixed;
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+  }
+  &__menu {
+    margin-left: 10rem;
+    margin-top: 2.8rem;
+    display: flex;
+    align-items: center;
+    column-gap: 4.4rem;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    &:nth-child(1) {
+      p {
+        background-color: #eb5757;
+        span {
+          background-color: #eb5757;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      p {
+        background-color: #27ae60;
+        span {
+          background-color: #27ae60;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      p {
+        background-color: #1850a8cc;
+        span {
+          background-color: #1850a8cc;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    position: relative;
+    margin: 0;
+    margin-right: 1.4rem;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+
+    span {
+      width: 16px;
+      height: 16px;
+
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

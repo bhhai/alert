@@ -1,0 +1,30 @@
+
+.base-tag {
+  width: fit-content;
+  height: 3.2rem;
+  border-radius: 0.2rem;
+  background-color: #C1C7CD;
+  color: var(--black-color);
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1.2rem;
+
+  &__content {
+    font-size: 1.4rem;
+    padding-right: 0.5rem;
+  }
+  svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &__disable {
+    background-color: #e6e9eb;
+    color: #a6a9aa;
+
+    svg {
+      fill: #a6a9aa;
+    }
+  }
+}

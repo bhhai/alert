@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g>
+    <rect x="6" y="9" width="2" height="1.8" />
+    <rect x="8.2" y="9" width="1.8" height="1.8" />
+    <rect x="10.2" y="9" width="7.8" height="1.8" />
+    <rect x="6" y="11" width="2" height="1.8" />
+    <rect x="8.2" y="11" width="1.8" height="1.8" />
+    <rect x="10.2" y="11" width="7.8" height="1.8" />
+    <rect x="6" y="13" width="2" height="3" />
+    <rect x="8.2" y="13" width="1.8" height="3" />
+    <rect x="10.2" y="13" width="7.8" height="3" />
+    <rect x="14" y="17" width="4" height="1" />
+    <path d="M20,5H15V4H9V5H4A1,1,0,0,0,3,6V19a1,1,0,0,0,1,1H20a1,1,0,0,0,1-1V6A1,1,0,0,0,20,5Zm-.5,13.5H4.5V6.5H9.69A2,2,0,0,0,11,7h2a2,2,0,0,0,1.31-.5H19.5Z" />
+  </g>
+</svg>

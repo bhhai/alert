@@ -1,0 +1,399 @@
+.base-button {
+  border-radius: 0.4rem;
+  padding: 1.2rem 9.3rem;
+  color: var(--white-color);
+  background: var(--primary-color);
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  outline: none;
+  position: relative;
+  transition: all .25s ease-in-out;
+  font-size: 1.6rem;
+  line-height: 22px;
+  font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+  svg {
+    fill: var(--white-color);
+    color: var(--white-color);
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: -0.4rem 0;
+    flex-shrink: 0;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+  }
+  &:hover:not(:disabled):not([disabled]),
+  &:focus:not(:disabled):not([disabled]) {
+    outline: none;
+  }
+  &:hover:not(:disabled):not([disabled]), &:focus:not(:disabled):not([disabled]) {
+    background: var(--button-bg-hover);
+  }
+  &:active:not(:disabled):not([disabled]) {
+    outline: none;
+  }
+  &:disabled,
+  &[disabled],
+  &[disabled="disabled"] {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+  }
+  // &:focus {
+  //   background: var(--button-bg-hover);
+  // }
+
+  &__size-small {
+    font-size: 1.6rem;
+    padding: 1rem 9.3rem;
+    line-height: 2.4rem;
+  }
+
+  &__size-medium {
+    font-size: 18px;
+    padding: 18px 90px;
+    line-height: 25px;
+  }
+
+  &__size-large {
+    font-size: 20px;
+    padding: 20px 100px;
+    line-height: 28px;
+  }
+
+  &:disabled,
+  &[disabled],
+  &[disabled="disabled"] {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+  }
+
+
+  &--color-primary {
+    &.base-button--variant-outline {
+      background: none;
+      color: var(--gray-color);
+      border-color: var(--primary-color);
+      svg {
+        fill: var(--gray-color);
+        color: var(--gray-color);
+      }
+      &:hover:not(:disabled):not([disabled]) {
+        background: var(--button-outline-bg-hover) !important;
+        color: var(--gray-color);
+        border-color: var(--button-outline-border-hover);
+      }
+      &:active:not(:disabled):not([disabled]) {
+        background-color: var(--button-outline-bg-active) !important;
+        color: var(--gray-color);
+        border-color: #536b82;
+        svg {
+          fill: var(--gray-color);
+          color: var(--gray-color);
+        }
+      }
+    }
+  }
+
+  &--color-secondary {
+    color: var(--white-color);
+    background: var(--secondary-color);
+    &:hover:not(:disabled):not([disabled]) {
+      background: var(--secondary-color);
+      outline: none;
+    }
+    &:active:not(:disabled):not([disabled]) {
+      background: var(--secondary-color);
+      outline: none;
+    }
+    &.base-button--variant-outline {
+      background: none;
+      color: var(--secondary-color);
+      border-color: var(--secondary-color);
+      svg {
+        fill: var(--secondary-color);
+        color: var(--secondary-color);
+      }
+      &:hover:not(:disabled):not([disabled]),
+      &:focus:not(:disabled):not([disabled]) {
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+      &:active:not(:disabled):not([disabled]) {
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+    }
+  }
+  
+  
+  &--color-destroy {
+    color: var(--white-color);
+    background: var(--error-color);
+    &:hover:not(:disabled):not([disabled]) {
+      background: rgba(var(--error-color-rgb), 0.8);
+      outline: none;
+    }
+    &:active:not(:disabled):not([disabled]) {
+      background: var(--error-darker-color);
+      outline: none;
+    }
+    &.base-button--variant-outline {
+      background: none;
+      color: var(--error-color);
+      border-color: var(--error-color);
+      svg {
+        fill: var(--error-color);
+        color: var(--error-color);
+      }
+      &:hover:not(:disabled):not([disabled]),
+      &:focus:not(:disabled):not([disabled]) {
+        background: rgba(var(--error-color-rgb), 0.8);
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+      &:active:not(:disabled):not([disabled]) {
+        background: var(--error-darker-color);
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+    }
+  }
+  
+  &--color-success {
+    color: var(--white-color);
+    background: var(--success-color);
+    &:hover:not(:disabled):not([disabled]),
+    &:focus:not(:disabled):not([disabled]) {
+      background: rgba(var(--success-color-rgb), 0.8);
+      outline: none;
+    }
+    &:active:not(:disabled):not([disabled]) {
+      background: var(--success-darker-color);
+      outline: none;
+    }
+    &.base-button--variant-outline {
+      background: none;
+      color: var(--success-color);
+      border-color: var(--success-color);
+      svg {
+        fill: var(--success-color);
+        color: var(--success-color);
+      }
+      &:hover:not(:disabled):not([disabled]),
+      &:focus:not(:disabled):not([disabled]) {
+        background: rgba(var(--success-color-rgb), 0.8);
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+      &:active:not(:disabled):not([disabled]) {
+        background: var(--success-darker-color);
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+    }
+  }
+  &--color-warning {
+    color: var(--white-color);
+    background: var(--warning-color);
+    &:hover:not(:disabled):not([disabled]),
+    &:focus:not(:disabled):not([disabled]) {
+      background: rgba(var(--warning-color-rgb), 0.8);
+      outline: none;
+    }
+    &:active:not(:disabled):not([disabled]) {
+      background: var(--warning-darker-color);
+      outline: none;
+    }
+    &.base-button--variant-outline {
+      background: none;
+      color: var(--warning-color);
+      border-color: var(--warning-color);
+      svg {
+        fill: var(--warning-color);
+        color: var(--warning-color);
+      }
+      &:hover:not(:disabled):not([disabled]),
+      &:focus:not(:disabled):not([disabled]) {
+        background: rgba(var(--warning-color-rgb), 0.8);
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+      &:active:not(:disabled):not([disabled]) {
+        background: var(--warning-darker-color);
+        color: var(--white-color);
+        border-color: transparent;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+    }
+  }
+  &--color-transparent {
+    background: none;
+    color: var(--primary-color);
+    border-color: transparent;
+    svg {
+      fill: var(--primary-color);
+      color: var(--primary-color);
+    }
+    &:hover:not(:disabled):not([disabled]),
+    &:focus:not(:disabled):not([disabled]) {
+      background: rgba(var(--primary-color-rgb), 0.06);
+      border-color: transparent;
+      outline: none;
+    }
+    &:active:not(:disabled):not([disabled]) {
+      background: rgba(var(--primary-color-rgb), 0.12);
+      border-color: transparent;
+      outline: none;
+    }
+    &:disabled,
+    &[disabled],
+    &[disabled="disabled"] {
+      border: none;
+    }
+  }
+  &__only-icon {
+    padding: 0;
+    padding: 19px;
+    border-radius: 50%;
+    svg {
+      margin: 0;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  &--color-link {
+    border: none;
+    color: var(--blue-color);
+    padding: 0;
+    background: none;
+    font-weight: 400;
+    &:hover:not(:disabled):not([disabled]),
+    &:focus:not(:disabled):not([disabled]),
+    &:active:not(:disabled):not([disabled]) {
+      border: none;
+      background: none;
+      text-decoration: underline;
+      box-shadow: none;
+    }
+  }
+
+
+  &--variant-outline {
+    background: none;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    svg {
+      fill: var(--primary-color);
+      color: var(--primary-color);
+    }
+    // &:hover:not(:disabled):not([disabled]),
+    // &:focus:not(:disabled):not([disabled]),
+    // &:active:not(:disabled):not([disabled]) {
+    //   color: var(--white-color);
+    //   border-color: transparent;
+    //   svg {
+    //     fill: var(--white-color);
+    //     color: var(--white-color);
+    //   }
+    // }
+    &:hover:not(:disabled):not([disabled]) {
+      color: var(--white-color);
+      border-color: transparent;
+      svg {
+        fill: var(--white-color);
+        color: var(--white-color);
+      }
+    }
+    &:disabled,
+    &[disabled],
+    &[disabled="disabled"] {
+      background: none !important;
+      border-color: var(--gray-color-5);
+      color: var(--gray-color-5) !important;
+      cursor: not-allowed !important;
+      svg {
+        fill: var(--gray-color-5) !important;
+        color: var(--gray-color-5) !important;
+      }
+    }
+  }
+  &--variant-fill-active {
+    background: none;
+    border: 1px solid var(--gray-border-thin);
+    color: var(--black-color);
+    &:hover:not(:disabled):not([disabled]) {
+      color: var(--black-color);
+      border-color: var(--gray-border);
+      background-color: var(--gray-color);
+      svg {
+        fill: var(--white-color);
+        color: var(--white-color);
+      }
+    }
+
+    &:focus:not(:disabled):not([disabled]),
+    &:active:not(:disabled):not([disabled]) {
+      color: var(--white-color);
+      border-color: transparent;
+      background-color: var(--primary-color) !important;
+    }
+  }
+  &--variant-outline-active {
+    background: none !important;
+    border: 1px solid var(--gray-border-thin);
+    color: var(--black-color);
+    svg {
+      fill: var(--black-color);
+      color: var(--black-color);
+    }
+    &:hover:not(:disabled):not([disabled]) {
+      color: var(--black-color);
+      border-color: var(--gray-border);
+      background-color: var(--gray-color);
+    }
+
+    &:focus:not(:disabled):not([disabled]),
+    &:active:not(:disabled):not([disabled]) {
+      color: var(--black-color-color);
+      border-color: var(--primary-color);
+    }
+  }
+}

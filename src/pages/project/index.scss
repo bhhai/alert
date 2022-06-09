@@ -1,0 +1,117 @@
+.main-container {
+  margin: 0 4rem;
+}
+.projects {
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    p {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.projects-news {
+  margin-top: 2.8rem;
+  display: flex;
+  column-gap: 2.8rem;
+  .projects-danger {
+    width: 70%;
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 2.8rem;
+    }
+  }
+  .projects-recent {
+    width: 30%;
+    &__title {
+      margin-bottom: 1.2rem;
+      font-weight: 700;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+    .projects-recent__cards {
+      display: flex;
+      flex-direction: column;
+      column-gap: 2.8rem;
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .projects {
+    &-title {
+      p {
+        font-size: 20px !important;
+      }
+    }
+  }
+  .projects-danger {
+    &__title {
+      font-size: 20px !important;
+    }
+  }
+  .projects-recent {
+    &__title {
+      font-size: 20px !important;
+    }
+  }
+
+  .search-table {
+    .search-item-input {
+      max-height: 4.1rem;
+      input {
+        padding: 0.8rem 1rem;
+        border-radius: 0;
+        background-color: transparent;
+        border-color: #bdbdbd;
+        max-height: 4.1rem;
+      }
+      .search-item-input__icon {
+        margin-bottom: -7px;
+      }
+    }
+    .btn-short {
+      height: 4.1rem;
+      padding: 0.8rem 1rem;
+    }
+  }
+}
+
+
+.task-container {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+  a {
+    
+  }
+  p {
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    &:nth-child(1) {
+      color: #EB575780;
+    }
+    &:nth-child(2) {
+      color: #2F80ED;
+    }
+    svg {
+      margin-right: 0.6rem;
+    }
+  }
+}

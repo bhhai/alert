@@ -1,0 +1,64 @@
+.base-bulk-action {
+  background: #DBEDFF;
+  font-weight: 400;
+  left: 0;
+  padding: 2rem 1.6rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  color: #000000;
+  //border-bottom: 1px solid var(--extra-color-20);
+  //border-radius: 0.8rem 0.8rem 0 0;
+  ul {
+    .select-count {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      margin-left: 2rem;
+      letter-spacing: 0.25px;
+      color: var(--extra-color-60);
+      padding-left: 3.2rem;
+      margin-right: 2rem;
+      span {
+        font-weight: 500;
+      }
+    }
+    .action-item {
+      background: #ffffff;
+      /* blk/line */
+
+      border: 1px solid #c4c4c4;
+      border-radius: 2px 0px 0px 2px;
+      padding: 0 1.2rem;
+      color: #000000;
+      cursor: pointer;
+    }
+  }
+  &__button {
+    .base-button {
+      border: 1px solid var(--extra-color-20);
+      padding: 0.4rem 0.5rem 0.4rem 0.8rem;
+      color: var(--text-primary-color);
+      letter-spacing: 0.25px;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      gap: 0.6rem;
+      font-weight: 400;
+      background-color: #ffffff;
+      &:hover {
+        background-color: #ffffff;
+      }
+      svg {
+        fill: var(--text-extra-color);
+        color: var(--text-extra-color);
+      }
+    }
+  }
+  .popover {
+    ul {
+      li {
+        padding: 0.3rem 1.6rem;
+      }
+    }
+  }
+}

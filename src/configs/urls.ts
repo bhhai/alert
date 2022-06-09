@@ -1,0 +1,46 @@
+export default {
+  user: {
+    login: "/authenticate",
+    updateUserInfo: "/user/update",
+    updateUserAvatar: "",
+    updateUserPassword: "/user/change-password",
+    getInfo: "/user/me",
+  },
+  upload: {
+    image: "https://cdnvda.mhsolution.vn/uploadMultipleFiles",
+  },
+  accountManagerment: {
+    getAll: "/admin/user/all",
+    createAccount: "/admin/user/create",
+    deleteAccount: "/admin/user/delete",
+    updateAccount: "/admin/user/update",
+    getAccountByPage: "/admin/user/pageable",
+  },
+  project: {
+    previewNews: "/crawler/news",
+    previewFacebook: "/crawler/social/facebook",
+    previewYoutube: "/crawler/social/youtube_channel",
+    previewTiktok: "/crawler/social/tiktok",
+    getProjectType: "/common/project-type",
+    getDepartment: "/common/department",
+    getProjectRole: "/common/project-role",
+    createProject: "/project/create",
+    getUserByEmail: "/common/search/user",
+    getProjectForUser: "/project/get-all-for-user",
+    getProjectById: "/project/get-project-info",
+  },
+  dashboard: "/dashboard",
+  department: {
+    getList: "/admin/department/all",
+    getStaffs: "/admin/department/all-staff",
+    create: "/admin/department/create",
+    update: "/admin/department/update",
+    delete: "/admin/department/delete",
+    getDepartmentByPage: "/admin/department/pageable",
+  },
+  employee: {
+    department: "/admin/department",
+    account: "/admin/account",
+    resetPassword: "/admin/reset-password",
+  },
+};

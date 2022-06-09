@@ -1,0 +1,39 @@
+.key-item {
+    &-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            margin-bottom: 0;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    &-body {
+        margin-top: 3.2rem;
+        .key-item-title {
+            display: flex;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px solid #828282;
+            p {
+                margin-bottom: 0;
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+            span {
+                color: #EB5757;
+                font-size: 14px;
+                padding: 0 1.8rem;
+                border-left: 1px solid #828282;
+                margin-left: 1.5rem;
+                cursor: pointer;
+            }
+        }
+        .key-item-content {
+            margin-top: 3.2rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 4.1rem;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.notification {
+
+  
+  &__table {
+    margin-top: 3.2rem;
+    &__header {
+      font-size: 2rem;
+      font-weight: 600;
+      padding: 2rem 4rem;
+      border: 0.1rem solid var(--gray-color-4);
+
+      h4 {
+        margin: 0 !important;
+      }
+
+      h3 {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+    }
+  }
+  &__body {
+    border: 0.1rem solid var(--gray-color-4);
+    border-top: 0;
+
+    & .field__container {
+      border-bottom: 0;
+    }
+
+    &__title {
+      h3 {
+        font-size: 1.6rem;
+        font-weight: 700;
+      }
+    }
+  }
+}

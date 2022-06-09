@@ -1,0 +1,9 @@
+bundle/
+node_modules/
+dist/
+.vscode/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr

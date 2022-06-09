@@ -1,0 +1,440 @@
+[33mcommit 1bea9dfe7edb09bd516f2f3aebd4f9f1ee3da7af[m[33m ([m[1;36mHEAD -> [m[1;32mtoikun[m[33m, [m[1;31morigin/toikun[m[33m)[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri May 13 15:54:26 2022 +0700
+
+    update
+
+[33mcommit c3c74a512367b7489b666c24e20896eb6e4ef518[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri May 13 13:55:41 2022 +0700
+
+    create project
+
+[33mcommit fb906528a4795886f92787f4f7915aed5e911eae[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed May 11 16:24:35 2022 +0700
+
+    update
+
+[33mcommit 89784bca4a24480654889f3feef3fe7760304766[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: c932fd9 9cb0b2a
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Tue May 10 16:01:52 2022 +0700
+
+    Merge branch 'haibh'
+
+[33mcommit 9cb0b2a36e582e0658bdf267f9646a52b3c7a7ea[m
+Merge: 6a95bd2 7be3944
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Tue May 10 16:01:27 2022 +0700
+
+    Merge branch 'toikun' into haibh
+
+[33mcommit 6a95bd2e4079c19376e6ca3355364210b0e85d17[m
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Tue May 10 16:01:22 2022 +0700
+
+    account setting
+
+[33mcommit 7be39443c69e508148f45c6c20f67b99c6336d17[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Tue May 10 15:31:26 2022 +0700
+
+    preview domain
+
+[33mcommit 072249d22e3b2ae17c55e43ba8d77a099bf626b9[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Tue May 10 12:44:24 2022 +0700
+
+    auth token
+
+[33mcommit b6054e3549815d2bdd693a121875be7edc14617d[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Tue May 10 11:45:03 2022 +0700
+
+    ff login
+
+[33mcommit 9b4df59e108336a3906134a510d1cc0465814f00[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Tue May 10 11:30:24 2022 +0700
+
+    fix login
+
+[33mcommit 9d76e20bab99b83e6da971cd45f83748dcbe4d09[m
+Merge: abd7e4a 72f030e
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Tue May 10 10:38:38 2022 +0700
+
+    Merge branch 'haibh' of https://gitlab.com/xsocial/frontend/tc2-frontend into toikun
+
+[33mcommit abd7e4a9b16d68a80104e378250dd138ec6cbc01[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Tue May 10 10:38:25 2022 +0700
+
+    update
+
+[33mcommit 72f030e17e5ee3e4f4e50be5739b9583f8386532[m[33m ([m[1;31morigin/haibh[m[33m)[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Tue May 10 10:36:58 2022 +0700
+
+    .
+
+[33mcommit 37195490f2767c5801f2b07a8b91bf61f204d7d7[m
+Merge: b32c505 9153f60
+Author: Hai <haibh.dev@gmail.com>
+Date:   Tue May 10 10:36:48 2022 +0700
+
+    Merge remote-tracking branch 'origin/toikun' into haibh
+
+[33mcommit b32c5057762ae50e48daa46affd7657576f7aa8b[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Tue May 10 10:10:46 2022 +0700
+
+    auth
+
+[33mcommit 9153f605972a05e60bc86fd48da76f7f53bf7884[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Tue May 10 09:38:53 2022 +0700
+
+    update
+
+[33mcommit 7c33b067797308ba1c0c3528fe3b30e01a358b0e[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Mon May 9 16:20:58 2022 +0700
+
+    update
+
+[33mcommit f4a67577854059a15038722934ec15b9dfbd8e1c[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Sun May 8 23:47:50 2022 +0700
+
+    project detail
+
+[33mcommit c624f4f5f6fcbb7b7888916ab2c11271ff1daac3[m
+Merge: 7a13b9e 8918a9f
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Sun May 8 11:30:39 2022 +0700
+
+    Merge branch 'haibh' of https://gitlab.com/xsocial/frontend/tc2-frontend into toikun
+
+[33mcommit 8918a9f296cdbfbc73b8b404b1576687c1c83313[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri May 6 18:17:22 2022 +0700
+
+    total card and login page
+
+[33mcommit c932fd9efaea078e3e8d323aea7230b07fb3cc77[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: 7a13b9e 9655124
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Thu May 5 17:29:43 2022 +0700
+
+    Merge branch 'haibh'
+
+[33mcommit 9655124ef515d0945e5d31e128b9f64f5e0afbee[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Thu May 5 17:25:31 2022 +0700
+
+    news-filter updated
+
+[33mcommit 7a13b9e7e02a05713074558576a14e0063f33de5[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Thu May 5 17:14:29 2022 +0700
+
+    search
+
+[33mcommit 64f46eb13599c039c01d48c19fc1ca8e5c31090a[m
+Merge: 9f06dd9 a47d1f5
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed May 4 18:19:05 2022 +0700
+
+    Merge branch 'haibh' of https://gitlab.com/xsocial/frontend/tc2-frontend into toikun
+
+[33mcommit 9f06dd9b3adf55c55ed3522a174bff641b009233[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed May 4 18:18:12 2022 +0700
+
+    update
+
+[33mcommit a47d1f556e4eff8ddf7cc62dded905281f9135fa[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Wed May 4 18:13:41 2022 +0700
+
+    news-filter updated
+
+[33mcommit a43a63502f561915966aba1e0dd3989321a66484[m
+Merge: 0895758 1f76594
+Author: Hai <haibh.dev@gmail.com>
+Date:   Wed May 4 18:13:14 2022 +0700
+
+    Merge remote-tracking branch 'origin/toikun' into haibh
+
+[33mcommit 63039a2303d817e25470bfbc4cbbd06c5a58e4c8[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed May 4 18:09:04 2022 +0700
+
+    update
+
+[33mcommit 1f76594855c7074b54eddc2f5c930517d9b802b6[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed May 4 16:53:36 2022 +0700
+
+    danh sach du an page
+
+[33mcommit 089575822ef2853cf31088259d3f1e893c694964[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Wed May 4 16:34:28 2022 +0700
+
+    dropdown edit
+
+[33mcommit f4eaa230e19a0f0df52c48301070bea979921553[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed May 4 13:54:38 2022 +0700
+
+    update
+
+[33mcommit 5788b5225f2c8e8f874c4af9a26f6b8348a3d0ff[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Sat Apr 30 18:57:27 2022 +0700
+
+    them bo phan tich
+
+[33mcommit 0c18fe4cd77c999cd02bb128012aa248fdac6ac9[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 18:04:42 2022 +0700
+
+    login page updated
+
+[33mcommit 66be36759e6a53caf4dbb09b17fc7f599b3bc598[m
+Merge: 2da035b 33f1a91
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 15:51:30 2022 +0700
+
+    Merge remote-tracking branch 'origin/toikun' into haibh
+
+[33mcommit 2da035b41c7bf390d9e58fa2e29e147de882b2d1[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 15:49:00 2022 +0700
+
+    .
+
+[33mcommit 33f1a9199f867b5b6347719b1150e1f4d3282735[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 15:48:22 2022 +0700
+
+    kkk
+
+[33mcommit 228976839f888b3523a3d380a9fcbb39be768c3a[m
+Merge: d86d2e6 7394b1f
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 15:41:02 2022 +0700
+
+    Merge remote-tracking branch 'origin/toikun' into haibh
+
+[33mcommit d86d2e6799ce73686c445e3e3a2b44d03260b0a4[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 15:37:19 2022 +0700
+
+    merge
+
+[33mcommit 3bc952570df1068377266a320d3cab12890362a4[m
+Merge: c0e39e1 2b361f1
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 15:34:59 2022 +0700
+
+    Merge branch 'haibh' of https://gitlab.com/xsocial/frontend/tc2-frontend into haibh
+
+[33mcommit c0e39e1aeb20aa5a0f63c36ebf2ea9065fe3117c[m
+Merge: a81bec2 2886ce1
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 15:33:10 2022 +0700
+
+    Merge remote-tracking branch 'origin/toikun' into haibh
+
+[33mcommit 7394b1fe94d3d92996d423c68ce97625d452b467[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 15:31:55 2022 +0700
+
+    share project
+
+[33mcommit 99899aa983365abc3ba142dc7580f0621c3f8e47[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 15:18:57 2022 +0700
+
+    share project
+
+[33mcommit e6a1ef21123d0a4b49134165a0e0588cc9b957d2[m
+Merge: 05a436e 2b361f1
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 14:39:13 2022 +0700
+
+    Merge branch 'master' of https://gitlab.com/xsocial/frontend/tc2-frontend into toikun
+
+[33mcommit 05a436ea13f98429d90f1078e196689057bd02a7[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 14:35:48 2022 +0700
+
+    update
+
+[33mcommit 2b361f10bf3046bab88b7e537c668f2c865062d5[m
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Fri Apr 29 14:32:57 2022 +0700
+
+    rebuild package lock
+
+[33mcommit 50e896ee2bbf97b767fd8a0eb57ba6309a33594b[m
+Merge: 5572032 a81bec2
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Fri Apr 29 14:30:21 2022 +0700
+
+    Merge remote-tracking branch 'origin/haibh'
+    
+    # Conflicts:
+    #       package-lock.json
+    #       src/App.tsx
+    #       src/components/icon.tsx
+
+[33mcommit 55720320bd233ac25dc59e67eaefd0981f90ae99[m
+Merge: 32a4b21 2886ce1
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Fri Apr 29 14:28:44 2022 +0700
+
+    Merge branch 'toikun'
+    
+    # Conflicts:
+    #       src/App.tsx
+    #       src/configs/routes.tsx
+    #       src/pages/layout.tsx
+
+[33mcommit a81bec2bd928dc1144ec45654a74418265d3f608[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Fri Apr 29 14:23:34 2022 +0700
+
+    login
+
+[33mcommit 2886ce1089ee9f596b840dbf4157f93fe10d03d0[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 14:21:01 2022 +0700
+
+    update upload img
+
+[33mcommit 62b1aaf040fa6fe74751f14995825d169f94234a[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 14:11:51 2022 +0700
+
+    remove keys
+
+[33mcommit d8e57acbe178ee8c3f458d107f5bacbdec200f9b[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Fri Apr 29 13:50:08 2022 +0700
+
+    routing update create project
+
+[33mcommit bc0cb905878182cc3f9ee2dfb711fefe37e59c82[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Thu Apr 28 17:39:29 2022 +0700
+
+    share project component
+
+[33mcommit bdba58b13f44029fd7fa16505f29e47053eb085b[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Thu Apr 28 17:37:18 2022 +0700
+
+    component upload img
+
+[33mcommit 362fada2156c78e2e46b790071e0147621686e65[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Thu Apr 28 16:44:51 2022 +0700
+
+    news detail updated
+
+[33mcommit d542d3a676ad1acf08a5af7d8657361862b48979[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed Apr 27 17:17:41 2022 +0700
+
+    remove contxet
+
+[33mcommit a7bfcffeb50ae0ef91c065393dce1394b6e5f21e[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed Apr 27 14:41:33 2022 +0700
+
+    create project router
+
+[33mcommit 32a4b210dfe79fce8ae71e20405e45da1a9d7a04[m
+Merge: 7261df3 b7a2b6d
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Wed Apr 27 14:37:36 2022 +0700
+
+    Merge branch 'toikun'
+    
+    # Conflicts:
+    #       package-lock.json
+
+[33mcommit b7a2b6d35bed7b4c44c9e6399bf4ce8e588ea755[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed Apr 27 14:36:15 2022 +0700
+
+    model
+
+[33mcommit 33a6f557b5a4e3f0f05081e0f6396ec3ec3e2d04[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed Apr 27 14:33:26 2022 +0700
+
+    package
+
+[33mcommit 7261df3c2104ee7166e436b29db69b2c5abbc57f[m
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Wed Apr 27 14:27:54 2022 +0700
+
+    update lib
+
+[33mcommit 1b8c986fe36b40212d6fd4791f73b44f1151cf53[m
+Merge: 8a94902 507205d
+Author: truongdx0405 <truongdx0405@gmail.com>
+Date:   Wed Apr 27 14:25:43 2022 +0700
+
+    Merge remote-tracking branch 'origin/haibh'
+    
+    # Conflicts:
+    #       src/App.tsx
+
+[33mcommit 8a94902f5cbae2a13dd63fc3aec71058497f25df[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed Apr 27 14:22:50 2022 +0700
+
+    create project page
+
+[33mcommit 71c0920f9a0d56ddf9e77d12ccf16bd6286830b0[m
+Author: vietcuong500 <vietcuong500@gmail.com>
+Date:   Wed Apr 27 14:17:37 2022 +0700
+
+    project context
+
+[33mcommit 507205d7d8e8d13ab9c97ab3ef99d13196997f78[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Wed Apr 27 13:57:07 2022 +0700
+
+    news
+
+[33mcommit 035e416ccfc0abcaacddd98986ff1c96ee90f4f6[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Wed Apr 27 13:38:31 2022 +0700
+
+    news page update
+
+[33mcommit 89dcf87533c982809710e57d0ce4a5a2ead0354b[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Tue Apr 26 15:28:03 2022 +0700
+
+    news page update
+
+[33mcommit cb271987df82aac5ea4b2b9d59b4dc60856de8a8[m
+Author: Hai <haibh.dev@gmail.com>
+Date:   Mon Apr 25 16:55:34 2022 +0700
+
+    update
+
+[33mcommit d1077bfebad8ba694fde71971c95245cb56a4c23[m
+Author: tranvanmin <minhmy2871990@gmail.com>
+Date:   Mon Apr 25 09:25:12 2022 +0000
+
+    Initial commit

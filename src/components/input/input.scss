@@ -1,0 +1,223 @@
+.base-input {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 0;
+  }
+  input {
+    box-shadow: none;
+    font-size: 1.6rem;
+    padding: 1.5rem 2.4rem;
+    line-height: 2.4rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    outline: none;
+    caret-color: var(--primary-color);
+    color: var(--text-primary-color);
+    width: 100%;
+    background: var(--white-color);
+    order: 2;
+    &:focus {
+      box-shadow: none;
+      border-color: var(--primary-color);
+    }
+    &::placeholder {
+      color: var(--gray-color-2);
+      opacity: 1;
+      margin-left: 30px;
+    }
+
+    &:-ms-input-placeholder {
+      color: var(--text-extra-color);
+    }
+
+    &::-ms-input-placeholder {
+      color: var(--text-extra-color);
+    }
+    &:disabled,
+    &:disabled:focus {
+      background: var(--extra-color-5);
+    }
+  }
+
+  
+  .label-text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    color: var(--text-primary-color);
+    cursor: text;
+    order: 1;
+    margin-bottom: 0.8rem;
+    text-transform: lowercase;
+
+    &::first-letter {
+      text-transform: uppercase !important;
+    }
+  }
+  &--error {
+
+    &-error {
+      input {
+        border-color: var(--error-color) !important;
+        caret-color: var(--error-color);
+      }
+    }
+
+    &-success {
+      input {
+        border-color: var(--success-color);
+        caret-color: var(--success-color);
+      }
+
+      & .has-error {
+        color: var(--success-color) !important;
+      }
+    }
+
+    &-warning {
+      input {
+        border-color: var(--warning-color);
+        caret-color: var(--warning-color);
+      }
+
+      & .has-error {
+        color: var(--warning-color) !important;
+      }
+    }
+  }
+  .has-error {
+    margin-top: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--error-color);
+
+    & .has-error {
+      color: var(--error-color) !important;
+    }
+  }
+
+  &.has-icon {
+    .icon {
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      bottom: 1.8rem;
+      left: 1.2rem;
+      color: var(--text-primary-color);
+      fill: var(--text-primary-color);
+      &.has-event {
+        cursor: pointer;
+      }
+      svg {
+        width: 2.2rem;
+        flex-shrink: 0;
+      }
+    }
+    input {
+      padding-left: 3.6rem;
+    }
+    &__right {
+      .icon {
+        left: auto;
+        right: 1.9rem;
+      }
+      input {
+        padding-left: 2.4rem;
+        padding-right: 3.6rem;
+      }
+    }
+  }
+  &.has-label-position-inside {
+
+    label {
+
+
+      & .label-text {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 3px;
+        transition: all .3s ease;
+      }
+
+      input:focus ~ .label-text {
+        bottom: 20px;
+      }
+
+    }
+  }
+
+  &.has-label-position-left {
+
+    display: flex;
+    align-items: center;
+    
+    & .label-text {
+      margin-bottom: 0;
+      margin-right: 20px;
+      order: 1;
+    }
+
+    & label {
+      order: 2;
+    }
+  }
+
+  &--variant-border-bottom {
+    &.has-icon {
+      .icon {
+        bottom: 3px;
+        left: 0;
+      }
+      input {
+        padding-left: 3.6rem;
+      }
+      &__right {
+        .icon {
+          left: auto;
+          right: 0;
+        }
+        input {
+          padding-left: 0;
+          padding-right: 3.6rem;
+        }
+      }
+    }
+  }
+
+  & &--variant-border-bottom {
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0;
+    padding: 0;
+  }
+
+  // numeric
+  &__suffixes {
+    
+    &--right {
+      text-align: right;
+    }
+  }
+
+  // text align numeric
+  &--text-align {
+
+    &-right input {
+      text-align: right;
+      padding-right: 5px !important;
+    }
+  }
+}
+
+.required {
+  color: var(--error-color);
+  margin-left: 3px;
+}

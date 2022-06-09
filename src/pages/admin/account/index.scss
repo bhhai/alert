@@ -1,0 +1,531 @@
+
+.admin-account {
+
+  &__container {
+    padding: 2.4rem;
+  }
+
+  &__card {
+    &__title {
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+      font-weight: 700;
+      margin-bottom: 2.4rem;
+    }
+  }
+
+  &__panel {
+    background-color: var(--white-color);
+    border-radius: 0.4rem;
+    box-shadow: var(--box-shadow);
+    margin-top: 2.8rem;
+
+    & .actions.task {
+      div {
+        height: 5rem;
+        font-weight: 600;
+
+        &:first-child {
+          color: var(--info-color);
+        }
+        &:last-child {
+          color: var(--error-color);
+        }
+      }
+    }
+
+    &__container {
+      padding: 3.5rem 2.4rem;
+    }
+
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2.5rem;
+
+      & .title {
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 3rem;
+      }
+
+      button {
+        padding: 0;
+        padding: 1.2rem 2.4rem;
+      }
+    }
+  }
+
+}
+
+.admin-total-card {
+  width: 100%;
+  height: 20rem;
+  background-color: var(--white-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.4rem;
+
+  &__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+
+  &__container {
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__thumb {
+    margin-right: 5rem;
+
+    img {
+      // width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__content {
+    font-weight: 700;
+    
+    & .title {
+      font-weight: 700;
+      margin-bottom: 2.4rem;
+    }
+
+    & .value {
+      font-size: 5.6rem;
+      line-height: 8.4rem;
+    }
+  }
+}
+
+.account-create {
+  &__header {
+    h5 {
+      font-size: 2rem;
+      line-height: 3rem;
+      font-weight: 600;
+      color: var(--black-color);
+    }
+  }
+
+  &__body {
+    margin-top: 1.6rem;
+    & .account-create-input {
+      margin-bottom: 3.6rem;
+    }
+    input {
+      height: 4.8rem;
+      padding: 1.2rem 1.6rem;
+    }
+
+    &__select {
+      margin-bottom: 3.6rem;
+      & div[class*=-control] {
+        height: 4.8rem;
+        padding: 0 !important;
+
+        & div[class*=-Input] {
+          padding: 0 1.6rem !important;
+        }
+
+        & .css-14el2xx-placeholder {
+          padding: 0 1.6rem !important;
+        }
+      }
+      & .css-qc6sy-singleValue {
+        padding-left: 1.6rem !important;
+      }
+    }
+
+    & .btn-create {
+      margin-top: 6.2rem;
+    }
+  }
+}
+
+.account-field {
+  border-bottom: 0.1rem solid var(--gray-color-4);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  &__container {
+    display: flex;
+    align-items: center;
+    // padding: 0 4rem;
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 1.6rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4rem;
+
+    &__label {
+
+    }
+    
+    &__input {
+      input {
+        height: 4rem;
+        border-radius: 0;
+      }
+      width: 74%;
+    }
+  }
+
+  &__label {
+    font-weight: 700;
+  }
+
+  
+
+  & div[class*=-control] {
+    padding: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+.account-delete {
+
+
+  &__modal-body {
+    position: relative;
+    height: 14rem !important;
+  }
+
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 8rem;
+    background-color: var(--white-color);
+    box-shadow: 0 -0.4rem 1rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4rem;
+
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+
+    button {
+      padding: 1.2rem 3.2rem;
+
+      &:first-child {
+        margin-right: 2.4rem;
+      }
+    }
+  }
+
+}
+
+.account-update {
+
+  &__body {
+    margin-bottom: 16rem;
+  }
+
+  &__bottom-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--white-color);
+    height: 11.2rem;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4rem;
+
+    button {
+      height: 4.8rem;
+
+      &:first-child {
+        margin-right: 2.4rem;
+      }
+    }
+  }
+}
+
+.user {
+
+  &-col {
+    display: flex;
+    align-items: center;
+  }
+
+  &-avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    & .bg-null {
+      background-color: var(--gray-color-4);
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-name {
+    white-space: nowrap;
+  }
+}
+
+// account-detail
+
+.account-detail {
+  position: relative;
+  &__modal {
+    min-height: 40rem !important;
+  }
+
+  &__body {
+    overflow-y: auto;
+  }
+
+  &__header {
+    padding-top: 2.4rem;
+    text-align: center;
+  }
+  &__close {
+    position: absolute;
+    right: 2.6rem;
+    top: 2.6rem;
+
+  }
+  &__avatar {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 1.6rem;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__name {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+  }
+
+  &__des {
+    color: var(--gray-color-4);
+  }
+
+  &__tab {
+    margin-top: 2.4rem;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    width: 100% !important;
+    &-item {
+      padding-bottom: 0.4rem;
+      border-bottom: 0.1rem solid var(--gray-color-4);
+      width: 50%;
+      text-align: center;
+      color: var(--gray-color-4);
+      cursor: pointer;
+      position: relative;
+      transition: all .3s ease;
+
+      &.active {
+        color: var(--primary-color);
+
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: -0.1rem;
+          width: 84%;
+          left: 8%;
+          height: 0.3rem;
+          background-color: var(--primary-color);
+        }
+      }
+    }
+  }
+
+  &__content {
+    width: 100%;
+    padding: 2.2rem 2.5rem;
+
+  }
+  &__info {
+    &__row {
+      display: flex;
+      align-items: center;
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+
+    }
+    &__key {
+      min-width: 11rem;
+      margin-right: 7rem;
+      font-weight: 700;
+    }
+  }
+}
+
+
+@media (max-width: 1819px) {
+  .admin-account {
+    &__panel {
+      &__container {
+        & .table {
+          font-size: 1.4rem;
+          line-height: 2.2rem;
+        }
+        & .pager {
+          ul {
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+  .admin-total-card {
+    &__thumb {
+      margin-right: 4rem;
+
+      img {
+        width: 90%;
+        margin: auto;
+      }
+    }
+    &__content {
+      
+      & .value {
+        font-size: 4.8rem;
+        line-height: 7.2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1599px) {
+  .admin-account {
+    &__panel {
+      &__container {
+        & .table {
+          font-size: 1.4rem;
+          line-height: 2.2rem;
+        }
+
+        & .pagination {
+          & .count-item {
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+          }
+          & .pager ul {
+            font-size: 1.4rem;
+            line-height: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+  .admin-total-card {
+    &__thumb {
+      margin-right: 0.5rem;
+
+      img {
+        width: 80%;
+        margin: auto;
+      }
+    }
+    &__content {
+      
+      & .value {
+        font-size: 4.2rem;
+        line-height: 6.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1365px) {
+  .admin-total-card {
+    padding: 0 1.5rem;
+    height: 15rem;
+    &__thumb {
+      margin-right: -1.2rem;
+
+      img {
+        width: 70%;
+        margin: auto;
+      }
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      & .title {
+        // white-space: nowrap;
+        margin-bottom: 0;
+      }
+      & .value {
+        font-size: 3rem;
+        line-height: 4.8rem;
+      }
+    }
+  }
+  .admin-account {
+    &__panel {
+
+      &__header {
+        & .title {
+          font-size: 1.8rem;
+          line-height: 2.6rem;
+        }
+        button {
+          font-size: 1.4rem !important;
+        }
+      }
+
+      & .search-table .search-item-input input {
+        padding: 0;
+        padding-left: 4.4rem ;
+        height: 4.8rem;
+      }
+    }
+  }
+  
+ }
+
+@media (max-width: 991px) {
+  
+}
+
+@media (max-width: 767px) {
+
+}

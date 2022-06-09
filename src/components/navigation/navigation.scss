@@ -1,0 +1,88 @@
+.navigation {
+  li {
+    & > a {
+      padding: 1.6rem 3.2rem 1.6rem 1.6rem;
+      gap: 1.2rem;
+      color: var(--white-color);
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      font-size: 1.6rem;
+      position: relative;
+      svg {
+        width: 2.4rem;
+        height: 2.4rem;
+        //fill: var(--white-color);
+        color: var(--white-color);
+        transition: all 0.3s ease-in-out;
+        flex-shrink: 0;
+      }
+      span {
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover {
+        background: rgba(47, 128, 237, 0.8);
+      }
+      .arrow-menu {
+        position: absolute;
+        right: 1.2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+    }
+    & .level-2 {
+      a {
+        transition: all .3s ease;
+        &:hover {
+          color: var(--info-color);
+        }
+      }
+    }
+    &.show-children {
+      background: var(--sidebar-menu-children-bg);
+      & > a {
+        background: rgba(47, 128, 237, 0.8);
+        box-shadow: var(--sidebar-menu-bg);
+      }
+    }
+    &.active {
+      & > a {
+        background: rgba(47, 128, 237, 0.8);
+        color: var(--white-color);;
+        svg {
+          fill: var(--white-color);
+          color: var(--white-color);
+        }
+      }
+    }
+  }
+  ul {
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+    li {
+      a {
+        padding: 0.8rem 1.2rem 0.8rem 5.2rem;
+        font-size: 1.4rem;
+        &:hover {
+          background: none;
+        }
+      }
+      &.active {
+        & > a {
+          background: transparent;
+          color: var(--info-color);
+          pointer-events: none;
+        }
+      }
+      &:first-child {
+        margin-top: 1rem;
+      }
+      &:last-child {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

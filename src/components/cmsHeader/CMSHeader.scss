@@ -1,0 +1,56 @@
+.cms-header {
+  height: 7.8rem;
+  width: 100%;
+  background-color: var(--white-color);
+  box-shadow: var(--box-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  & .account-popover {
+    width: 24.4rem;
+    margin-top: 2rem;
+  }
+
+  &__container {
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: auto;
+  }
+
+  &__avt {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1.2rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__account {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__name {
+    h3 {
+      font-size: 1.6rem;
+    }
+    span {
+      color: var(--gray-color-4);
+    }
+  }
+
+  &--isCollap {
+    margin-left: 0 !important;
+  }
+}

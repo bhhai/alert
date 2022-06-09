@@ -1,0 +1,49 @@
+.base-tabs {
+    width: 100%;
+    ul {
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        &::-webkit-scrollbar {
+            display: none;
+          }
+        li {
+            white-space: nowrap;
+            flex-grow: 1;
+            padding: 0.8rem 1.6rem;
+            text-align: center;
+            cursor: pointer;
+            color: #828282;
+            transition: all 200ms ease-in;
+        }
+        
+    }
+
+    &--border-bottom {
+        ul {
+            overflow-x: scroll;
+            li{
+                border-bottom: 4px solid #E0E0E0;
+            }
+            .active {
+                border-color: #1850A8;
+                color: #333333;
+            }
+        }
+    }
+
+    &--fill {
+        ul {
+            background-color: var(--white-color);
+            padding: 8px;
+            border-radius: 4px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            .active {
+                border-color: transparent;
+                color: var(--white-color);
+                background-color: var(--primary-color);
+                border-radius: 4px;
+            }
+        }
+    }
+}

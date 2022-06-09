@@ -1,0 +1,48 @@
+.search-item {
+    display: inline-block;
+    position: relative;
+    height: 4.8rem;
+    border: 1px solid var(--gray-color-4);
+    p {
+        cursor: pointer;
+        margin: 0;
+        padding: 1.2rem;
+        .icon-caretdown {
+            width: 2.4rem;
+            margin-left: 1.5rem;
+        }  
+    }
+    &:hover {
+        border-color: var(--primary-color);
+        z-index: 3;
+    }
+    
+    .popover-searchtable {
+        width: fit-content !important;
+        white-space: nowrap !important;
+        overflow-y: inherit !important;
+        padding: 3.2rem 2.2rem 2.4rem 2.2rem;
+        height: auto;
+        max-height: fit-content !important;
+        button {
+            margin-top: 1.8rem;
+        }
+        .popover-select {
+            height: 4rem;
+            
+        }
+        .base-select .select-custom div[class*=-control] {
+            padding: 0 1rem;
+        }
+    }
+
+}
+
+@media (max-width: 1366px) {
+    .search-item {
+        height: 4.1rem;
+        p {
+            padding: 0.8rem 1rem;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+
+.import-file {
+
+  display: flex;
+  align-items: center;
+  
+  &__button {
+    height: 3.2rem;
+    border: 0;
+    outline: 0;
+    border: 0.05rem solid var(--gray-color-4);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+    background-color: var(--white-color);
+    transition: all .3s ease;
+
+    &:hover {
+      background-color: var(--gray-color-6);
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    &__upload {
+      width: 16.8rem;
+      margin-right: 1.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-right: 0.5rem;
+  
+        fill: var(--secondary-color);
+        color: var(--secondary-color);
+      }
+    }
+    
+
+    &__menu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 5.6rem;
+
+      svg {
+
+      }
+    }
+
+  }
+}

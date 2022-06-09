@@ -1,0 +1,30 @@
+.query {
+
+  &__search {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+
+    & ~ * {
+      margin-top: 5.4rem;
+    }
+
+    & .search-box {
+      width: 100%;
+    }
+
+    button {
+      margin-left: 2rem;
+      width: 5.6rem;
+      height: 5rem;
+      outline: 0;
+      border: 0.1rem solid #C4C4C4;
+      border-radius: 0.2rem;
+      background-color: var(--white-color);
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}

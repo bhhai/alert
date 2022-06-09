@@ -1,0 +1,40 @@
+.base-breadcrumb-menu {
+    display: flex;
+    align-items: center;
+    svg {
+        width: 2.1rem;
+        margin-right: 1.2rem;
+        fill: #828282;
+    }
+
+    .base-breadcrumb-item {
+        display: flex;
+        cursor: pointer;
+        color: #828282;
+        svg {
+            width: 1.2rem;
+            margin-left: 1.2rem;
+            margin-right: 1.2rem;
+            fill: #828282;
+        }
+        &:last-child {
+            svg {
+                opacity: 0;
+            }
+        }
+        &:hover {
+            color: #1850A8;
+        }
+        a{
+            color: #828282;
+            text-decoration: none;
+            &:hover {
+                color: #1850A8;
+            }
+        }
+    } 
+    .breadcrumb-active {
+        color: #1850A8;
+    }
+}
+

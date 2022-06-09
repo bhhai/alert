@@ -1,0 +1,27 @@
+.area-chart {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 2rem;
+  .svg-content {
+      width: 100%;
+  }
+  &__title {
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;
+  }
+  .tick {
+    text {
+      font-weight: 700;
+      font-size: 14px;
+      color: #828282;
+    }
+    line {
+      stroke: #e0e0e0;
+    }
+  }
+  .domain {
+    stroke: #e0e0e0;
+  }
+}
